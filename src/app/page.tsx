@@ -50,9 +50,14 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Hospital II-2 Tarapoto</h3>
               <p className="text-gray-600 mb-6 text-sm">Centro referencial de alta resolución y mayor complejidad del nororiente peruano con atención quirúrgica y especializada.</p>
-              <div className="flex items-center text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
+              <a
+                href="https://hospital-delta-topaz.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+              >
                 Ir al Portal del Hospital <ArrowRight className="ml-1 h-4 w-4" />
-              </div>
+              </a>
             </div>
 
             {/* Banco de Sangre */}
